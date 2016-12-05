@@ -87,6 +87,9 @@ nav li a:hover, nav li a:focus{
     width: 30px;
     height: 1px;
 }
+.frase h1{
+  font-size: 25px;
+}
  .my-button {
      width: 13s0px;
      height: 30px;
@@ -99,6 +102,36 @@ nav li a:hover, nav li a:focus{
 
 
 /* --------section about-me--------*/
+
+
+.servicios{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 0 auto;
+}
+
+.servicios ul{
+	margin:0;  
+	padding:0;
+}
+.servicios ul li i{
+	
+	font-size: 30px;
+	margin-top: 20px;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 20px;
+
+}
+.servicios ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+.servicios h6{
+	    width: 176px;
+}
 .about-me{
     background: #f05f40;
     color: #fff;
@@ -127,7 +160,7 @@ nav li a:hover, nav li a:focus{
     width: 30px;
     height: 1px;
 }
-
+/* --------section icons--------*/
 .icons-view li {
     
     list-style: none;
