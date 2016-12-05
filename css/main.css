@@ -1,0 +1,127 @@
+/* Tu CSS va aqui */
+*{outline: 1px solid rgba(255,0,0,0.4);}
+/* Header */
+
+body
+{
+	font-family:sans-serif;
+}
+body p
+{
+	font-family:sans-serif;
+    
+}
+/*--------- Header */
+
+header a,h3{
+	color: #fff;
+}
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus{
+	text-decoration: none;
+	outline: none;
+	background: #f4f0bb;
+}
+
+#main-navigation{
+	z-index: 1;
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul{
+	background: rgba(218,44,56,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+.btn-nav p{
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.btn-nav span{
+    background-color: #fff;
+   
+}
+/* -----------Hero-----------*/
+
+.centrado{ /* --------centrado decente--------*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+}
+.centrar{
+    margin: 0 auto; /* --------centrado decente--------*/
+    text-align: center;
+}
+
+.hero-image
+{
+	background: url(../img/header.jpg);
+	background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	color: #fff; 
+   
+}
+.frase p{
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.frase hr{
+    background: #f05f40;
+    border-color: #f05f40;
+    width: 30px;
+    height: 1px;
+}
+
+ .frase button {
+     background-color: #f05f40;
+     width: 13s0px;
+     height: 30px;
+     border-radius:10px ;
+     color: #fff;
+}
+/* --------section about-me--------*/
+.about-me{
+    background: #f05f40;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    
+}
+.about-me h3{
+     margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    
+}
+.about-me p{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    
+}
+.about-me hr{
+    background: #fff;
+    border-color: #fff;
+    width: 30px;
+    height: 1px;
+}
+
